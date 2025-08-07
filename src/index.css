@@ -1,9 +1,33 @@
 @import "tailwindcss";
 
-.back-img{
-    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('./assets/School-img.jpg');
+
+
+.back-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('./assets/School-img.jpg');
     background-size: cover;
-    background-repeat: no-repeat ;
+    /* background-repeat: no-repeat; */
     background-position: center;
-    height: 100vh;
+    height: 90vh;
+}
+
+.stroke h1 {
+    color: rgb(182, 180, 180);
+    -webkit-text-stroke: 1px #8186a5;
+
+}
+
+.stroke p {
+    color: gray;
+    -webkit-text-stroke: 1px #a6abc7;
+    
+}
+
+.page h1 {
+    color: blue;
+    -webkit-text-stroke: 1px rgb(143, 140, 140);
+}
+
+.page p {
+    color: blue;
+    -webkit-text-stroke: 1px rgb(143, 140, 140);
 }

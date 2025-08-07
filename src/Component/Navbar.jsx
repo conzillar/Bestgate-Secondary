@@ -5,9 +5,9 @@ export default function Navbar() {
     <nav className='flex justify-between px-[15px] py-[7px] md:px-[50px] md:py-[10px] items-center'>
       <div className='flex gap-[0.6rem]'>
         <img src="Logo2.PNG" alt="" className='w-[60px] h-[60px]' />
-        <div className='text-center'>
-          <h1 className='font-[1000] text-[16px]'>BESTGATE HERITAGE</h1>
-          <p className='font-[800] text-[14px]'>SECONDARY SCHOOL</p>
+        <div className='page text-center'>
+          <h1 className=' font-[600] md:font-[700] shadow-gray-200 md:text-[19px] tracking-[2px]'>BESTGATE HERITAGE</h1>
+          <p className='font-[600] md:font-[700] text-[14px]'>SECONDARY SCHOOL</p>
         </div>
 
       </div>
