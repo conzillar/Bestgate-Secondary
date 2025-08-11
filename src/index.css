@@ -3,11 +3,11 @@
 
 
 .back-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('./assets/School-img.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('./assets/School-img.jpg');
     background-size: cover;
     /* background-repeat: no-repeat; */
     background-position: center;
-    height: 90vh;
+    height: 80vh;
 }
 
 .stroke h1 {
@@ -19,7 +19,7 @@
 .stroke p {
     color: gray;
     -webkit-text-stroke: 1px #a6abc7;
-    
+
 }
 
 .page h1 {
@@ -30,4 +30,37 @@
 .page p {
     color: blue;
     -webkit-text-stroke: 1px rgb(143, 140, 140);
+}
+
+.tool{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(./assets/img1.jpg);
+    background-repeat:repeat;
+    background-position: center;
+    background-size: cover;
+    /* width: 20%; */
+    height: 250px;
+}
+.tool1{
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(./assets/img2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 20%; */
+    height: 250px;
+}
+.tool2{
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(./assets/img4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 20%; */
+    height: 250px;
+}
+.tool3{
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(./assets/img5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 20%; */
+    height: 250px;
 }
