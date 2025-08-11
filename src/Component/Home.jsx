@@ -36,7 +36,7 @@ export default function Home() {
       </div>
 
       <div className="text-left">
-        <div className='flex gap-[3rem] mt-[1rem] md:mt-[-6rem] md:ml-[0.6rem]'>
+        <div className='flex gap-[3rem] mt-[2rem] ml-[1rem] md:mt-[-6rem] md:ml-[0.6rem]'>
           <button className='px-[20px] py-[4px] bg-[blue] rounded-[3px] hover:scale-110 transition duration-200 cursor-pointer text-white'>
             Parent Login
           </button>

@@ -7,7 +7,7 @@ import { AiOutlineMail } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <div className=' gate bg-gray-300  md:gap-none md:flex justify-between px-[50px] py-[20px]'>
+    <div className=' gate bg-gray-300  md:gap-none md:flex justify-between py-[30px] px-[50px] md:py-[20px]'>
       <div className='leading-[20px] mb-[1rem] md:mb-[0px]'>
         <div>
           <h1 className='mb-[0.5rem] text-[25px] font-[700]'>Our School</h1>
